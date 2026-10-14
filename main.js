@@ -15,7 +15,7 @@ input.addEventListener("keydown", function(event) {
 //List 3 random Pokemons from Gen I - doubles are allowed
 async function getPokemonList(){
     for (let ii = 0; ii < 3; ii++){
-        const rdm = Math.floor(Math.random() * 16) + 1;
+        const rdm = Math.floor(Math.random() * 151) + 1;
         getPokemonCard(rdm,show_area);
     }
 }
